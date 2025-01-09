@@ -47,6 +47,10 @@
   background: #fff8f3;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* header */
 
 .header {
@@ -139,4 +143,90 @@ main {
 
 .item-description {
   font-weight: bold;
+}
+
+/* Skills Styles */
+
+.skills > h3 {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.skill {
+  max-width: 237px;
+  max-height: 347px;
+  padding: 30px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+}
+
+/* Resume Styles */
+
+.resume {
+  margin-top: 130px;
+}
+
+.resume-info {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.resume-info hr {
+  width: 558px;
+  margin: 30px 0;
+}
+.resume-info-title {
+  color: #474747;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 113px;
+  margin-bottom: 30px;
+}
+
+.edu-exp-title {
+  color: #474747;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.edu-exp-subtitle {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.edu-exp-description {
+  color: #757575;
+}
+
+.cvdownload-button {
+  margin-top: 30px;
+}
+
+/* Contact Card Style */
+
+.contact-card {
+  width: 100%;
 }
