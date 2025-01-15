@@ -293,3 +293,53 @@ main {
 .contact-icon {
   margin-right: 24px;
 }
+/* RESPONSIVE MEDIA QUERY */
+
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume-info {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .resume-info hr {
+    width: 500px;
+    margin: 30px 0;
+  }
+  .contact-card {
+    flex-direction: column-reverse;
+    padding: 60px 7.1875%;
+  }
+  .social-media {
+    margin-top: 20px;
+  }
+
+  .about {
+    padding: 130px 20px;
+    text-align: left;
+  }
+
+  .header {
+    background-image: url('images/header_bg.png');
+    background-position: bottom right;
+  }
+
+  nav {
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 35px 0 20px;
+  }
+
+  .banner-profile-pic {
+    width: 100%;
+  }
+}
